@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "92dd955a-6198-4f6a-bfd2-3a78f88823d3",
+		"name": "preguntas",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "uno",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/pregunta_uno/10",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"pregunta_uno",
+						"10"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "dos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/pregunta_dos/11",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"pregunta_dos",
+						"11"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
